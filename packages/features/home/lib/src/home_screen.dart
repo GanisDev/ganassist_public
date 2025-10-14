@@ -80,19 +80,6 @@ class _HomePage extends State<HomePage> with WidgetsBindingObserver {
   _initialize() {
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       _alertDialogModel = AlertDialogModel(widget.navigatorKey,_appScaleFactor);
-/*      String name = await widget.keyValueStorage.getValue(key: 'name', type: String) ?? '';
-      if(name.isEmpty && name == 'Name???'){
-        if (mounted) {
-          Navigator.of(context).push(platformPageRoute(
-            context: context,
-            builder: (context) => SettingsScreen(
-              keyValueStorage: widget.keyValueStorage,
-              navigatorKey: widget.navigatorKey,
-              appScaleFactor: widget.appScaleFactor
-            ),
-          ));
-        }
-      }*/
     });
 
   }
@@ -160,71 +147,7 @@ class _HomePage extends State<HomePage> with WidgetsBindingObserver {
     );
 
   }
-  /*Widget build(BuildContext context) {
-    return BlocConsumer<NearbyCubit, NearbyState>(
-      listenWhen: (oldState, newState) =>  listenedStates.contains(newState.runtimeType),
-      listener: handleCubitListener,
-      buildWhen: (oldState, newState) => oldState !=  newState && !listenedStates.contains(newState.runtimeType) && newState is! NearbyFinalizingConnection,
-      builder: (context, state) {
-        final cubit = context.read<NearbyCubit>();
-        return FutureBuilder<double>(
-          future: getAppScaleFactor(),
-          builder: (BuildContext context, AsyncSnapshot<double> snapshot) {
-            if (snapshot.hasData && snapshot.connectionState == ConnectionState.done) {
-              //print('snapshot.data: ${snapshot.data}');
-              double appScaleFactor = snapshot.data ?? 1.0;
-              final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
-              return MediaQuery(
-                data: MediaQuery.of(context).copyWith(textScaleFactor:_appScaleFactor),
-                child: Scaffold(
-                  key: _scaffoldKey,
-                  resizeToAvoidBottomInset: true,
-                  appBar: AppBar(
-                    centerTitle: true,
-                    titleSpacing: 0.0,
-                    leading: IconButton(
-                        iconSize: 24 *appScaleFactor,
-                        icon: const Icon(Icons.dehaze),
-                        onPressed: () async {
-                          _scaffoldKey.currentState!.openDrawer();
-                        }
-                    ),
-                    title: const Text('GanAssist'),
-                    actions: [
-                      IconButton(
-                        iconSize: 24 * appScaleFactor,
-                        icon:  _buildNearByIcon(cubit),
-                        onPressed: () async {
-                          await _handleNearbyIconAction(cubit);
-                        },
-                      ),
-                    ], //_makeActionButtons(),
-                  ),
-                  body: Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: _buildContent(cubit, appScaleFactor),
-                    ),
-                  ),
-                  drawer:  AppDrawer(
-                    keyValueStorage: widget.keyValueStorage,
-                    navigatorKey: widget.navigatorKey,
-                    cubit: cubit,
-                    appScaleFactor: appScaleFactor
-                  ),
-                  // This trailing comma makes auto-formatting nicer for build methods.
-                ),
-              );
-            } else {
-              return const Center(child: AppCircularProgress());
-            }
-          },
-        );
-        *//**//*
-      }
-    );
 
-  }*/
 
 
 
@@ -527,51 +450,3 @@ class _HomePage extends State<HomePage> with WidgetsBindingObserver {
   }
 
 }
-
-/*
-AppBar(
-        leadingWidth: 100,
-        centerTitle: true,
-        titleSpacing: 0.0,
-        leading: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            IconButton(
-              icon: const Icon(Icons.language),
-                onPressed: () async{
-                  Locale currentLocale = context.locale;
-                  showDialog(
-                      context: context,
-                      builder: (_) => SelectLangDialog(languageCode: currentLocale.languageCode,)).then((newLocale){
-                        if (newLocale != null && newLocale != currentLocale){
-                          context.setLocale(newLocale!);
-                        }
-                       });
-                }
-            ),
-            IconButton(
-                icon: _navAppIcon ?? const Icon(Icons.navigation),
-                onPressed: () async{
-                  AppSupportedNavs appSupportedNavs = AppSupportedNavs();
-                  await appSupportedNavs.getApp(context);
-                  _setNavAppIcon();
-                  setState(() {
-
-                  });
-                }
-            ),
-          ],
-        ),
-        title: const Text('GanAssist'),
-        actions: [
-          IconButton(
-            icon:  nearbyIcon,
-            //color: _myColor,
-            onPressed: () async {
-              await _handleNearbyIconAction();
-              },
-          ),
-        ],
-           )
-
-*/

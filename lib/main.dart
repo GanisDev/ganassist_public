@@ -181,13 +181,3 @@ Future<ThemeMode> getThemeMode(KeyValueStorage keyValueStorage) async {
 }
 
 
-/*
-MaterialApp(
-theme: ThemeData(
-textTheme: Theme.of(context).textTheme.apply(
-fontSizeFactor: 1.1,
-fontSizeDelta: 2.0,
-),
-),
-...
-);*/
