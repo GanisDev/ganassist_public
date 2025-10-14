@@ -1,0 +1,19 @@
+{
+  "1.0.3" :
+  [
+    "Improvements and bug fixes."
+  ],
+  "1.0.2" :
+  [
+    "Added OsmAnd — Maps & GPS Offline to the supported nav apps list.",
+    "Improvements and bug fixes."
+  ],
+  "1.0.1" :
+  [
+    "Improvements and bug fixes."
+  ],
+   "1.0.0" :
+    [
+      "App release."
+    ]
+}

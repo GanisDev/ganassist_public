@@ -1,0 +1,1 @@
+export 'src/others_screen.dart';

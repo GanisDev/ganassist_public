@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "vendor": ["miui", "poco", "redmi", "xiaomi"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.miui.securitycenter",
+    "componentName": "com.miui.permcenter.autostart.AutoStartManagementActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 2,
+    "vendor": ["letv"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.letv.android.letvsafe",
+    "componentName": "com.letv.android.letvsafe.AutobootManageActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 2,
+    "vendor": ["asus"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.asus.mobilemanager",
+    "componentName": "com.asus.mobilemanager.autostart.AutoStartActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_3"
+  },
+  {
+    "id": 3,
+    "vendor": ["huawei","honor"],
+    "osVer": [4,5,6],
+    "type": "power",
+    "package": "com.huawei.systemmanager",
+    "componentName": "com.huawei.systemmanager.optimize.process.ProtectActivity",
+    "text" : "In order to function properly, Ganis Pro requires to be enabled in 'Protected Apps'",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 4,
+    "vendor": ["huawei","honor"],
+    "osVer": [8],
+    "type": "autostart",
+    "package": "com.huawei.systemmanager",
+    "componentName": "com.huawei.systemmanager.appcontrol.activity.StartupAppControlActivity",
+    "text" : "In order to function properly, Ganis Pro requires to run in the background. For this, please turn off its switch for 'Manage automatically', and after press 'Ok' in 'Manage manually' window",
+    "translated": "vendor_settings_4"
+  },
+   {
+    "id": 4,
+    "vendor": ["coloros"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.coloros.oppoguardelf",
+    "componentName": "com.coloros.powermanager.fuelgaue.PowerUsageModelActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 5,
+    "vendor": ["coloros"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.coloros.oppoguardelf",
+    "componentName": "com.coloros.powermanager.fuelgaue.PowerSaverModeActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 6,
+    "vendor": ["coloros"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.coloros.oppoguardelf",
+    "componentName": "com.coloros.powermanager.fuelgaue.PowerConsumptionActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 7,
+    "vendor": ["coloros", "oppo"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.coloros.safecenter",
+    "componentName": "com.coloros.safecenter.permission.startup.StartupAppListActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 8,
+    "vendor": ["oppo"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.oppo.safe",
+    "componentName": "com.oppo.safe.permission.startup.StartupAppListActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 9,
+    "vendor": ["iqoo"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.iqoo.secure",
+    "componentName": "com.iqoo.secure.ui.phoneoptimize.AddWhiteListActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 10,
+    "vendor": ["iqoo"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.iqoo.secure",
+    "componentName": "com.iqoo.secure.ui.phoneoptimize.BgStartUpManager",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 11,
+    "vendor": ["vivo"],
+    "osVer": "",
+    "type": "autostart",
+    "package": "com.vivo.permissionmanager",
+    "componentName": "com.vivo.permissionmanager.activity.BgStartUpManagerActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 11,
+    "vendor": ["nokia"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.evenwell.powersaving.g3",
+    "componentName": "com.evenwell.powersaving.g3.exception.PowerSaverExceptionActivity",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 17,
+    "vendor": ["samsung"],
+    "osVer": [7,8],
+    "type": "power",
+    "package": "com.samsung.android.lool",
+    "componentName": "com.samsung.android.sm.ui.battery.BatteryActivity",
+    "text" : "In order to function properly, Ganis Pro requires to be added to the unmonitored apps list!",
+    "translated": "vendor_settings_17"
+  },
+  {
+    "id": 17,
+    "vendor": ["oneplus"],
+    "osVer": [7,8],
+    "type": "autostart",
+    "package": "com.oneplus.security",
+    "componentName": "com.oneplus.security.chainlaunch.view.ChainLaunchAppListActivity",
+    "text" : "In order to function properly, Ganis Pro requires to be added to the unmonitored apps list!",
+    "translated": "vendor_settings_2"
+  },
+  {
+    "id": 15,
+    "vendor": ["meizu"],
+    "osVer": "",
+    "type": "power",
+    "package": "com.meizu.safe",
+    "componentName": "com.meizu.safe.security.SHOW_APPSEC",
+    "category": "CATEGORY_DEFAULT",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  },
+  {
+    "id": 15,
+    "vendor": ["realme"],
+    "osVer": "",
+    "type": "power",
+    "action": "Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS",
+    "text" : "Ganis Pro requires to be enabled in 'Protected Apps' to function properly",
+    "translated": "vendor_settings_1"
+  }
+]

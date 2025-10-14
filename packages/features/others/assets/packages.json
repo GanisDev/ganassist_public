@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Sound effects obtained from",
+    "link": "https://www.zapsplat.com"
+  },
+  {
+    "title": "Developed with Flutter",
+    "link": "https://flutter.dev/"
+  },
+  {
+    "title": "Package: android_intent_plus",
+    "link": "https://pub.dev/packages/android_intent_plus"
+  },
+  {
+    "title": "Package: appcheck",
+    "link": "https://pub.dev/packages/appcheck"
+  },
+   {
+    "title": "Package: audioplayers",
+    "link": "https://pub.dev/packages/audioplayers"
+  },
+  {
+    "title": "Package: device_info",
+    "link": "https://pub.dev/packages/device_info"
+  },
+  {
+    "title": "Package: easy_localization",
+    "link": "https://pub.dev/packages/easy_localization"
+  },
+  {
+    "title": "Package: flutter_email_sender",
+    "link": "https://pub.dev/packages/flutter_email_sender"
+  },
+  {
+    "title": "Package: nearby_connections",
+    "link": "https://pub.dev/packages/nearby_connections"
+  },
+  {
+    "title": "Package: optimize_battery",
+    "link": "https://pub.dev/packages/optimize_battery"
+  },
+   {
+    "title": "Package: shared_preferences",
+    "link": "https://pub.dev/packages/shared_preferences"
+  },
+  {
+    "title": "Package: url_launcher",
+    "link": "https://pub.dev/packages/url_launcher"
+  },
+  {
+    "title": "Package: wakelock",
+    "link": "https://pub.dev/packages/wakelock"
+  }
+]

@@ -1,0 +1,6 @@
+
+#https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows
+#varianta 1.Directly download from Make for Windows
+#trebuie musai instalat git ca sa poata folosi comenzi scrise in bash
+#dupa care de lansat asta din terminal: git config --global --add safe.directory '*'
+#make get  pt a-l lansa

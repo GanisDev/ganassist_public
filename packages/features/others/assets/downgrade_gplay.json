@@ -1,0 +1,157 @@
+{
+  "en" :
+  [
+    {
+      "content":
+      [
+        "Unfortunately, there are some problems with the Nearby functionality in Google Play services after version 23.33.16.",
+        "To mitigate this, you must downgrade Google Play services to a version prior to 23.33.17.",
+        "I order to do this, please follow these steps:"
+      ]
+    },
+    {
+      "title": "1. Disable background data usage for Google Play Store",
+      "content":
+      [
+        "In order to prevent your device to automatically update the Google Play services, you must disable background data usage for Google Play Store.",
+        "Press the 'Disable background data usage for Google Play Store' button, and in the next window tap 'Mobile data' an disable 'Allow background data usage'.",
+        "Keep in mind that doing so, your installed apps will be updated only when Google Play app is opened and running!!!"
+      ],
+      "button_text": "Disable background data usage\nfor Google Play Store",
+      "package_for_intent": "com.android.vending"
+    },
+    {
+      "title": "2. Disable background data usage for Google Play services",
+      "content":
+      [
+        "Press the 'Disable background data usage for Google Play Services' button, and in the next window tap 'Mobile data' an disable 'Allow background data usage'."
+      ],
+      "button_text": "Disable background data usage\nfor Google Play services",
+      "package_for_intent": "com.google.android.gms"
+    },
+    {
+      "title": "3. Downgrade Google Play services",
+      "content":
+      [
+        "Press the 'Downgrade Google Play Services' button, press the three dot button from the top right an the press 'Uninstall updates'.",
+        "Confirm with 'Ok' the replace this app with factory version message.",
+        "If after this you still receive the message 'Please downgrade Google Play Services to version 23.33.16', please follow the instructions from point 4. Other instructions"
+      ],
+      "button_text": "Downgrade Google Play Services",
+      "package_for_intent": "com.google.android.gms"
+    },
+    {
+      "title": "4. Other instructions",
+      "content":
+      [
+        "Please follow the instructions from this page:"
+      ],
+      "link_text": "Other instructions",
+      "link": "https://dex100c0der.github.io/android-ios-support/dowgrade-gpservices.html"
+    }
+
+  ],
+  "ro" :
+  [
+    {
+      "content":
+      [
+        "Din păcate, există unele probleme cu funcționalitatea În apropiere cu serviciile Google Play după versiunea 23.33.16.",
+        "Pentru a rezolva aceasta trebuie să faci downgrade la Serviciile Google Play la o versiune anterioară 23.33.17.",
+        "Pentru a face acest lucru, te rog să urmezi acești pași:"
+      ]
+    },
+    {
+      "title": "1. Dezactivează permisiune utilizare date fundal pentru Magazin Google Play",
+      "content":
+      [
+        "Pentru a împiedica dispozitivul să actualizeze automat Serviciile Google Play, trebuie să dezactivezi permisiunea utilizare date fundal pentru Magazinul Google Play.",
+        "Apăsă butonul „Dezactivează permisiune utilizare date fundal pentru Magazin Google Play”, iar în fereastra următoare apasă „Date mobile” și dezactivează „Permisiune utilizare date fundal”.",
+        "Reține că, făcând acest lucru, aplicațiile instalate pe dispozitiv vor fi actualizate numai când aplicația Magazin Google Play este deschisă și rulează!!!"
+      ],
+      "button_text": "Dezactivează permisiune utilizare\ndate fundal pentru Magazin Google Play",
+      "package_for_intent": "com.android.vending"
+    },
+    {
+      "title": "2. Dezactivează permisiune utilizare date fundal pentru Serviciile Google Play",
+      "content":
+      [
+        "Apăsă butonul „Dezactivează permisiune utilizare date fundal pentru Serviciile Google Play”, iar în fereastra următoare apasă „Date mobile” și dezactivează „Permisiune utilizare date fundal”."
+      ],
+      "button_text": "Dezactivează permisiune utilizare\ndate fundal pentru Serviciile Google Play",
+      "package_for_intent": "com.google.android.gms"
+    },
+    {
+    "title": "3. Downgradează Serviciile Google Play",
+    "content":
+    [
+      "Apăsă butonul „Downgradează Serviciile Google Play”, apăsă butonul cu trei puncte din dreapta sus și apăsă „Dezinstalare actualizări”.",
+      "Confirmă cu „Ok”, mesajul înlocuiți această aplicație cu versiunea din fabrică.",
+      "Dacă după aceasta încă primiți mesajul „Te rog să downgradezi Serviciile Google Play la versionea 23.33.16”, te rog să urmezi instrucțiunile de la punctul 4. Alte instrucțiuni"
+    ],
+    "button_text": "Downgradează Serviciile Google Play",
+    "package_for_intent": "com.google.android.gms"
+  },
+    {
+      "title": "4. Alte instrucțiuni",
+      "content":
+      [
+        "Te rog să urmezi instrucțiunile din această pagină:"
+      ],
+      "link_text": "Link alte instrucțiuni",
+      "link": "https://dex100c0der.github.io/android-ios-support/dowgrade-gpservices.html"
+    }
+  ],
+  "it" :
+  [
+    {
+      "content":
+      [
+        "Unfortunately, there are some problems with the Nearby functionality in Google Play services after version 23.33.16.",
+        "To mitigate this, you must downgrade Google Play services to a version prior to 23.33.17.",
+        "I order to do this, please follow these steps:"
+      ]
+    },
+    {
+      "title": "1. Disable background data usage for Google Play Store",
+      "content":
+      [
+        "In order to prevent your device to automatically update the Google Play services, you must disable background data usage for Google Play Store.",
+        "Press the 'Disable background data usage for Google Play Store' button, and in the next window tap 'Mobile data' an disable 'Allow background data usage'.",
+        "Keep in mind that doing so, your installed apps will be updated only when Google Play app is opened and running!!!"
+      ],
+      "button_text": "Disable background data usage\nfor Google Play Store",
+      "package_for_intent": "com.android.vending"
+    },
+    {
+      "title": "2. Disable background data usage for Google Play services",
+      "content":
+      [
+        "Press the 'Disable background data usage for Google Play Services' button, and in the next window tap 'Mobile data' an disable 'Allow background data usage'."
+      ],
+      "button_text": "Disable background data usage\nfor Google Play services",
+      "package_for_intent": "com.google.android.gms"
+    },
+    {
+      "title": "3. Downgrade Google Play services",
+      "content":
+      [
+        "Press the 'Downgrade Google Play Services' button, press the three dot button from the top right an the press 'Uninstall updates'.",
+        "Confirm with 'Ok' the replace this app with factory version message.",
+        "If after this you still receive the message 'Please downgrade Google Play Services to version 23.33.16', please follow the instructions from point 4. Other instructions"
+      ],
+      "button_text": "Downgrade Google Play Services",
+      "package_for_intent": "com.google.android.gms"
+    },
+    {
+      "title": "4. Other instructions",
+      "content":
+      [
+        "Please follow the instructions from this page:"
+      ],
+      "link_text": "Other instructions",
+      "link": "https://dex100c0der.github.io/android-ios-support/dowgrade-gpservices.html"
+    }
+
+  ]
+}

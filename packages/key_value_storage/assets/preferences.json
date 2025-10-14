@@ -1,0 +1,70 @@
+[
+  {
+    "name": "name",
+    "default": "Name???"
+  },
+  {
+    "name": "screenAlwaysOn",
+    "default": true
+  },
+  {
+    "name": "autoStartChecked",
+    "default": false
+  },
+  {
+    "name": "manPowerChecked",
+    "default": false
+  },
+  {
+    "name": "defaultNavAppPackageName",
+    "default": ""
+  },
+  {
+    "name": "defaultNavAppName",
+    "default": ""
+  },
+  {
+    "name": "defaultNavAppIcon",
+    "default": ""
+  },
+  {
+    "name": "defaultNavLink",
+    "default": ""
+  },
+  {
+    "name": "showBatteryOptimization",
+    "default": true
+  },
+  {
+    "name": "soundVolume",
+    "default": 10.0
+  },
+  {
+    "name": "installedTime",
+    "default": ""
+  },
+  {
+    "name": "rated",
+    "default": "no"
+  },
+  {
+    "name": "showInNotifPanel",
+    "default": false
+  },
+  {
+    "name": "acceptedEndpointNames",
+    "default": []
+  },
+  {
+    "name": "endpointName",
+    "default": ""
+  },
+  {
+    "name": "darkMode",
+    "default": false
+  },
+  {
+    "name": "textSize",
+    "default": 14.0
+  }
+]
