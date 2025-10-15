@@ -72,7 +72,7 @@ With **GanisPro + GanAssist**, this process becomes much safer and easier:
 ## 🧩 Compatibility
 
 - Android 7.0 (API 24) or higher  
-- Developed with **Flutter 3.7.8 / Dart 2.19.5  
+- Developed with **Flutter 3.7.8 / Dart 2.19.5**  
 - Works with major navigation apps:  
   - Google Maps  
   - Waze  
